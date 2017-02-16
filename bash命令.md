@@ -58,11 +58,17 @@ tail -f file  //看日志时用，会刷新
 ##压缩文件
 
 tar –f 生成文件 目标文件
+
 -f(ile) 必选 
+
 -c creat压缩(默认)
+
 -x eXtra解压
+
 -j 使用压缩算法-bzip算法bz2
+
 -z 使用压缩算法-gzip算法gz
+
 –a(uto)  使用归档后缀名来决定压缩程序
 
 tar -f archive.tar foo bar  # 从文件 foo 和 bar 创建归档文件 archive.tar。
