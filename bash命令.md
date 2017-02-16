@@ -18,7 +18,23 @@ cp -r dir1 dir2 复制目录
 
 ll –t //列出详细信息，按时间排序
 
-ls -R(ecursive) 目录树 -l 详细信息 -t 时间排序 -S 大小排序 -X 扩展名排序 -r(everse) 逆序 –h(uman) 大小以G/M为单位 –m 以M为单位 -a 列出包括隐藏文件 
+ls -R(ecursive) 目录树 
+
+-l 详细信息 
+
+-t 时间排序 
+
+-S 大小排序 
+
+-X 扩展名排序 
+
+-r(everse) 逆序 
+
+–h(uman) 大小以G/M为单位 
+
+–m 以M为单位 
+
+-a 列出包括隐藏文件 
 
 wc -l *.txt //看文件行数
 
